@@ -1,5 +1,8 @@
-#package zkavalible
-##Introduce
+package zkavalible
+============
+
+Introduce
+---------------
 基于Zookeeper的高可用性保证，利用Zookeeper临时节点概念，即一旦进程退出，临时节点就会消失。
 
 （1）互斥型服务
@@ -15,7 +18,8 @@
 
 * 允许N个进程同时运行，当进程数量超过限制数量N时，之后启动的进程无效不执行逻辑
 
-##Example
+Example
+---------------
 ```GO
 package main
 import(
